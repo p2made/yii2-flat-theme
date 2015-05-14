@@ -1,0 +1,33 @@
+{
+    "name": "p2made/yii2-flat-theme",
+    "description": "Flat Theme, as a frontend UI for Yii 2 Framework.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2", "yii", "extension", "PHP",
+        "asset", "bundle",
+        "Flat", "theme",
+        "frontend", "admin", "ui", "user-interface", "theme"
+    ],
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Plowman",
+            "email": "p2opensource@gmail.com",
+            "homepage": "https://github.com/p2made"
+        }
+    ],
+
+    "version": "0.1.0",
+    "minimum-stability": "dev",
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "p2made/yii2-asset-collection": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "p2made\\theme\\flat\\": ""
+        }
+    }
+}
