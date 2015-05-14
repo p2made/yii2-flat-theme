@@ -1,6 +1,6 @@
 {
     "name": "p2made/yii2-flat-theme",
-    "description": "Flat Theme, as a frontend UI for Yii 2 Framework.",
+    "description": "Flat Theme from ShapeBootstrap, http://shapebootstrap.net, as a frontend UI for Yii 2 Framework.",
     "type": "yii2-extension",
     "keywords": [
         "yii2", "yii", "extension", "PHP",
@@ -15,6 +15,13 @@
             "name": "Pedro Plowman",
             "email": "p2opensource@gmail.com",
             "homepage": "https://github.com/p2made"
+        }
+    ],
+
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/p2made/yii2-flat-theme"
         }
     ],
 
