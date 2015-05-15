@@ -8,7 +8,6 @@
         "Flat", "theme",
         "frontend", "admin", "ui", "user-interface", "theme"
     ],
-    "keywords": ["yii2","extension"],
     "license": "MIT",
     "authors": [
         {
@@ -29,12 +28,12 @@
     "minimum-stability": "dev",
 
     "require": {
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": "2.0.*",
         "p2made/yii2-asset-collection": "1.*"
     },
     "autoload": {
         "psr-4": {
-            "p2made\\theme\\flat\\": ""
+            "p2made\\theme\\Flat\\": ""
         }
     }
 }
