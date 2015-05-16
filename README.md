@@ -1,5 +1,5 @@
-Flat Theme
-==========
+Flat Theme v0.1.0
+=================
 
 Flat Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
 
