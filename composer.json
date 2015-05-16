@@ -29,7 +29,7 @@
 
     "require": {
         "yiisoft/yii2": "2.0.*",
-        "p2made/yii2-asset-collection": "1.*"
+        "p2made/yii2-asset-collection": "2.*"
     },
     "autoload": {
         "psr-4": {
