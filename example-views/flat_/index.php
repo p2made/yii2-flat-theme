@@ -59,6 +59,7 @@
 			</div>
 		</div>
 	</header><!--/header-->
+
 	<section id="main-slider" class="no-margin">
 		<div class="carousel slide wet-asphalt">
 			<ol class="carousel-indicators">
