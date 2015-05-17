@@ -32,7 +32,7 @@ use yii\bootstrap\NavBar;
 						['label' => 'Blog Item', 'url' => ['/site/page', 'view' => 'blog-item']],
 						['label' => 'Pricing', 'url' => ['/site/page', 'view' => 'pricing']],
 						['label' => 'Privacy Policy', 'url' => ['/site/page', 'view' => 'privacy']],
-						['options' => ['class' => 'divider']],
+						['label' => '', 'options' => ['class' => 'divider']],
 						['label' => '404', 'url' => ['/site/page', 'view' => '404']],
 						['label' => 'Login', 'url' => ['/site/login']],
 						['label' => 'Signup', 'url' => ['/site/signup']],
