@@ -3,13 +3,15 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
-use common\widgets\Alert;
+use p2made\theme\Flat\widgets\Alert;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-AppAsset::register($this);
+// being really pedantic about asset order...
+p2made\assets\PrettyPhotoAsset::register($this);
+p2made\assets\AnimateAsset::register($this);
+p2made\theme\Flat\web\FlatAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
