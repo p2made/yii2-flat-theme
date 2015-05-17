@@ -5,11 +5,12 @@ use p2made\theme\Flat\widgets\Alert;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
+\rmrevin\yii\fontawesome\AssetBundle::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
-	<?= $this->render('html-header.php', []) ?>
+<?= $this->render('html-header.php', []) ?>
 <body>
 	<?php $this->beginBody() ?>
 	<?= $this->render('header.php', []) ?>

@@ -9,6 +9,7 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Home';
 
 // being really pedantic about asset order...
+\rmrevin\yii\fontawesome\AssetBundle::register($this);
 p2made\assets\PrettyPhotoAsset::register($this);
 p2made\assets\AnimateAsset::register($this);
 p2made\theme\Flat\web\FlatAsset::register($this);
