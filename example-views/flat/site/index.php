@@ -9,7 +9,7 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Home';
 
 // being really pedantic about asset order...
-\rmrevin\yii\fontawesome\AssetBundle::register($this);
+p2made\assets\FontAwesomeAsset::register($this);
 p2made\assets\PrettyPhotoAsset::register($this);
 p2made\assets\AnimateAsset::register($this);
 p2made\theme\Flat\web\FlatAsset::register($this);
@@ -24,6 +24,7 @@ p2made\assets\DataTablesAsset::register($this);
 p2made\assets\ExcanvasAsset::register($this);
 p2made\assets\FlotChartsAsset::register($this);
 p2made\assets\FlotTooltipAsset::register($this);
+p2made\assets\FontAwesomeAsset::register($this);
 p2made\assets\FullCalendarAsset::register($this);
 p2made\assets\HolderAsset::register($this);
 p2made\assets\IsotopeAsset::register($this);
@@ -43,6 +44,7 @@ p2made\assets\Html5shivAsset::register($this);
 		'p2made\assets\ExcanvasAsset',
 		'p2made\assets\FlotChartsAsset',
 		'p2made\assets\FlotTooltipAsset',
+		'p2made\assets\FontAwesomeAsset',
 		'p2made\assets\FullCalendarAsset',
 		'p2made\assets\HolderAsset',
 		'p2made\assets\IsotopeAsset',

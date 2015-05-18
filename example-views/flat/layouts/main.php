@@ -5,7 +5,7 @@ use p2made\theme\Flat\widgets\Alert;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-\rmrevin\yii\fontawesome\AssetBundle::register($this);
+p2made\assets\FontAwesomeAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
