@@ -19,28 +19,6 @@ class Theme extends \yii\base\Theme
 	 */
 	public $pathMap = [
 		'@frontend/views' => '@p2made/theme/Flat/views',
-		'@frontend/modules' => '@p2made/theme/Flat/modules'
+		//'@frontend/modules' => '@p2made/theme/Flat/modules'
 	];
-
-	/**
-	 * @inheritdoc
-	 */
-	public function init()
-	{
-		parent::init();
-
-		Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapAsset'] = [
-			'sourcePath' => '@vova07/themes/site/assets',
-			'css' => [
-				'css/bootstrap.min.css'
-			]
-		];
-		Yii::$app->assetManager->bundles['yii\bootstrap\BootstrapPluginAsset'] = [
-			'sourcePath' => '@vova07/themes/site/assets',
-			'js' => [
-				'js/bootstrap.min.js'
-			]
-		];
-	}
 }
-p2made/theme/Flat/
