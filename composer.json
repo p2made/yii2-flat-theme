@@ -28,14 +28,14 @@
 		}
 	],
 
-	"version": "0.1.5",
+	"version": "v0.1.7",
 	"minimum-stability": "dev",
 
 	"require": {
 		"yiisoft/yii2": ">=2.0.6",
 		"fxp/composer-asset-plugin": "~1.1",
-		"p2made/yii2-p2y2-things": "v1.9.0",
-		"p2made/yii2-p2y2-things-demo": "v1.9.0"
+		"p2made/yii2-p2y2-things": "v1.9.1",
+		"p2made/yii2-p2y2-things-demo": "v1.9.1"
 	},
 	"autoload": {
 		"psr-4": {
