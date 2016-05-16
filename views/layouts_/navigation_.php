@@ -1,0 +1,11 @@
+<?php
+FA::icon('dashboard')
+FA::icon('bar-chart-o')
+FA::icon('table')
+FA::icon('edit')
+FA::icon('desktop')
+FA::icon('wrench')
+FA::icon('arrows-v')
+FA::icon('caret-down')
+FA::icon('file')
+FA::icon('dashboard')
