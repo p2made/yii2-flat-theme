@@ -1,5 +1,5 @@
-P2Flat Theme v0.1.8
-===================
+P2Flat Theme v0.1.9
+============
 
 Flat Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
 
