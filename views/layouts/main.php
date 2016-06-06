@@ -8,14 +8,15 @@
  * @license MIT
  */
 
-use yii\helpers\Html;
-use p2made\demo\Things\widgets\Alert;
-use p2made\widgets\FA;
+use yii\bootstrap\Html;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+use p2made\widgets\Alert;
+use p2made\helpers\FA;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-yii\web\YiiAsset::register($this);
 p2made\theme\Flat\assets\FlatAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -25,15 +26,14 @@ p2made\theme\Flat\assets\FlatAsset::register($this);
 	<meta charset="<?= Yii::$app->charset ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?= Html::csrfMetaTags() ?>
-	<title><?= Html::encode($this->title) ?> | P2Y2Things</title>
+	<title><?= Html::encode($this->title) ?> | Flat Theme</title>
 	<?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
-<?= $this->render('navigation.php', []) ?>
-
 	<div class="wrap">
+<?= $this->render('_navigation.php', []) ?>
 
 		<div class="container">
 <?= Alert::widget() ?>
@@ -41,26 +41,7 @@ p2made\theme\Flat\assets\FlatAsset::register($this);
 		</div>
 	</div>
 
-	<footer class="footer">
-		<div class="container">
-
-			<p class="pull-left">
-				Crafted with <?= FA::icon('heart') ?> by Pedro fp, on the
-				<a href="https://en.wikipedia.org/wiki/Sunshine_Coast,_Queensland" target="_blank">
-					Sunshine Coast <?= FA::icon('external-link') ?>
-				</a> of
-				<a href="https://en.wikipedia.org/wiki/Queensland" target="_blank">
-					Queensland <?= FA::icon('external-link') ?>
-				</a>,
-				<a href="https://en.wikipedia.org/wiki/Australia" target="_blank">
-					Australia <?= FA::icon('external-link') ?>
-				</a>
-				<?= FA::icon('copyright') ?> <?= date('Y') ?>
-			</p>
-
-			<p class="pull-right"><?= Yii::powered() ?></p>
-		</div>
-	</footer>
+<?= $this->render('_footer.php', []) ?>
 
 <?php $this->endBody() ?>
 </body>

@@ -15,16 +15,15 @@ class FlatAsset extends \yii\web\AssetBundle
 	public $sourcePath = '@vendor/p2made/yii2-flat-theme/assets/lib';
 
 	public $css = [
-		'css/flat.css',
+		'css/flat-theme.css',
 	];
 
 	public $js = [
-		'js/flat.js'
+		'js/flat-theme.js'
 	];
 
 	public $depends = [
-		'p2made\assets\BootstrapAsset',
-		'p2made\assets\FontAwesomeAsset',
+		'p2made\assets\P2CoreAsset',
 		'p2made\assets\PrettyPhotoAsset',
 		'p2made\assets\AnimateAsset',
 	];

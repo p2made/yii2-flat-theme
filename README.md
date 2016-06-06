@@ -8,6 +8,10 @@ which registers the CSS & JS files for the SB Admin 2 UI.
 
 It declares [`p2made/yii2-asset-collection`](https://github.com/p2made/yii2-asset-collection) as a dependancy.
 
+¡¡¡ On Hold !!!
+===============
+Updates in the dependencies to the original appear to have broken some elememts & it's a right mess for which I don't immediately have time.
+
 Installation
 ------------
 

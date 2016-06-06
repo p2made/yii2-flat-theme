@@ -1,26 +1,28 @@
 <?php
-/**
- * index.php
- *
- * @copyright Copyright &copy; Pedro Plowman, https://github.com/p2made, 2016
- * @author Pedro Plowman
- * @package p2made/yii2-p2y2-things-demo
- * @license MIT
- */
-
-use yii\bootstrap\Html;
-use yii\widgets\Breadcrumbs;
-
-use p2made\helpers\FA;
-
-// load assets...
-
-// DEMO ONLY _DON'T_ use this in your production copy.
-
-/* @var $this yii\web\View */
-
-$this->title = 'P2Y2Things';
+	$title = 'Home';
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title><?php echo $title; ?> | Flat Theme</title>
+
+	<!-- Assets -->
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.min.css" rel="stylesheet" type="text/css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet" type="text/css">
+
+	<link href="assets/css/flat-theme.css" rel="stylesheet">
+	<link href="assets/images/favicon.ico" rel="shortcut icon">
+	<!-- / Assets -->
+</head>
+<body>
+
 	<header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
 		<div class="container">
 			<div class="navbar-header">
@@ -434,3 +436,12 @@ $this->title = 'P2Y2Things';
 				</div>
 			</div>
 		</footer>
+
+	<script src="//code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js" type="text/javascript"></script>
+	<script src="assets/js/flat-theme.js"></script>
+	<!-- / Footer Block -->
+
+</body>
+</html>
