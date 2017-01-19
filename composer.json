@@ -28,7 +28,7 @@
 		}
 	],
 
-	"version": "v0.1.11",
+	"version": "0.1.11",
 	"minimum-stability": "dev",
 
 	"require": {
