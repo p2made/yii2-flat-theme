@@ -1,4 +1,4 @@
-P2Flat Theme v0.1.14
+P2Flat Theme v0.1.15
 ============
 
 Flat Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
@@ -19,19 +19,19 @@ The preferred way to install Flat Theme is through [composer](http://getcomposer
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require p2made/yii2-flat-theme "*"
+composer require p2made/yii2-flat-theme "^0.1.15"
 ```
 
 or
 
 ```
-php composer.phar require p2made/yii2-flat-theme "*"
+php composer.phar require p2made/yii2-flat-theme "^0.1.15"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-flat-theme": "*"
+"p2made/yii2-flat-theme": "^0.1.15"
 ```
 
 to the requires section of your `composer.json` file & p2y2bootstrapSocialAsset will be installed next time you run `composer update`.
