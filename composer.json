@@ -28,7 +28,7 @@
 		}
 	],
 
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"minimum-stability": "dev",
 
 	"require": {
@@ -37,7 +37,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"p2made\\theme\\Flat\\": ""
+			"p2m\\theme\\Flat\\": ""
 		}
 	}
 }
