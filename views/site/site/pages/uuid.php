@@ -10,11 +10,11 @@
 
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
-use p2made\helpers\FA;
-use p2made\helpers\Uuid;
+use p2m\helpers\FA;
+use p2m\helpers\Uuid;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 
@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			<div class="col-md-2"></div>
 			<div class="col-md-4">
 				<h4>Using no subdomain.</h4>
-				<p><code>\p2made\helpers\Uuid::uuid()</code></p>
+				<p><code>\p2m\helpers\Uuid::uuid()</code></p>
 				<ul>
 					<li><?= Uuid::uuid() ?></li>
 					<li><?= Uuid::uuid() ?></li>
@@ -68,7 +68,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			</div>
 			<div class="col-md-4">
 				<h4>Using subdomain com.example.</h4>
-				<p><code>\p2made\helpers\Uuid::uuid('com.example')</code></p>
+				<p><code>\p2m\helpers\Uuid::uuid('com.example')</code></p>
 				<ul>
 					<li><?= Uuid::uuid('com.example') ?></li>
 					<li><?= Uuid::uuid('com.example') ?></li>

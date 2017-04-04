@@ -8,7 +8,7 @@
  *
  */
 
-namespace p2made\theme\Flat\assets;
+namespace p2m\theme\Flat\assets;
 
 class FlatAsset extends \yii\web\AssetBundle
 {
@@ -23,8 +23,8 @@ class FlatAsset extends \yii\web\AssetBundle
 	];
 
 	public $depends = [
-		'p2made\assets\P2CoreAsset',
-		'p2made\assets\PrettyPhotoAsset',
-		'p2made\assets\AnimateAsset',
+		'p2m\assets\P2CoreAsset',
+		'p2m\assets\PrettyPhotoAsset',
+		'p2m\assets\AnimateAsset',
 	];
 }

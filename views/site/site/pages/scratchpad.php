@@ -10,10 +10,10 @@
 
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
-use p2made\helpers\FA;
+use p2m\helpers\FA;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 // DEMO ONLY _DON'T_ use this in your production copy.
 

@@ -10,10 +10,10 @@
 
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
-use p2made\helpers\FA;
+use p2m\helpers\FA;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 
@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
 	<div class="body-content">
 
 		<p class="lead">
-			With use <code>p2made\helpers\FA;</code> in your document header, you can place Font Awesome icons just about anywhere with <code>FA::i()</code>. Examples appreciatively re-used from the <a href="http://fontawesome.io/examples/">Font Awesome documentation <?= FA::i(FA::icon(FA::_EXTERNAL_LINK)) ?></a>.
+			With use <code>p2m\helpers\FA;</code> in your document header, you can place Font Awesome icons just about anywhere with <code>FA::i()</code>. Examples appreciatively re-used from the <a href="http://fontawesome.io/examples/">Font Awesome documentation <?= FA::i(FA::icon(FA::_EXTERNAL_LINK)) ?></a>.
 		</p>
 		<p>
 			I love the elegance & cleverness of the recursive methods in <a href="https://github.com/rmrevin/yii2-fontawesome" target="_blank">rmrevin/yii2-fontawesome <?= FA::i(FA::icon(FA::_EXTERNAL_LINK)) ?></a>, however the syntax starts out shorter than HTML for basic icons but becomes much longer as attributes are added. I've added a few shortcuts that reduce common combinations to method names of 2 letters. My shortcuts are annotated here with <em>p2made&nbsp;shortcut</em>.

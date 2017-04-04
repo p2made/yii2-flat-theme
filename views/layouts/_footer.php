@@ -9,12 +9,12 @@
  */
 
 use yii\bootstrap\Html;
-use p2made\helpers\FA;
+use p2m\helpers\FA;
 
 /* @var $this \yii\web\View */
 
 yii\web\YiiAsset::register($this);
-p2made\assets\FontAwesomeAsset::register($this);
+p2m\assets\FontAwesomeAsset::register($this);
 ?>
 <footer class="footer">
 	<div class="container">

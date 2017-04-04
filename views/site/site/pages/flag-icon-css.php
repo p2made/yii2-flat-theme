@@ -11,25 +11,25 @@
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
 
-use p2made\helpers\FA;
-use p2made\helpers\FI;
+use p2m\helpers\FA;
+use p2m\helpers\FI;
 
 /**
  * Use this helper with...
  *
- * use p2made\helpers\BSocial;
+ * use p2m\helpers\BSocial;
  * ...
  * echo BSocial::method([$params]);
  *
  * or
  *
- * echo \p2made\helpers\BSocial::method([$params]);
+ * echo \p2m\helpers\BSocial::method([$params]);
  */
 
 
 // load assets...
-p2made\assets\FlagIconCssAsset::register($this);
-p2made\demo\assets\FlagIconsDemoAsset::register($this);
+p2m\assets\FlagIconCssAsset::register($this);
+p2m\demo\assets\FlagIconsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 

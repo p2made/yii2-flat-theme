@@ -12,9 +12,9 @@ use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
-p2made\assets\CircleButtonsAsset::register($this);
-p2made\assets\BootstrapSocialAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
+p2m\assets\CircleButtonsAsset::register($this);
+p2m\assets\BootstrapSocialAsset::register($this);
 
 /* @var $this yii\web\View */
 

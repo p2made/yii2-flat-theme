@@ -10,11 +10,11 @@
 
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
-use p2made\helpers\FA;
-use p2made\helpers\BSocial;
+use p2m\helpers\FA;
+use p2m\helpers\BSocial;
 
 // load assets...
-p2made\assets\BootstrapSocialAsset::register($this);
+p2m\assets\BootstrapSocialAsset::register($this);
 
 /* @var $this yii\web\View */
 

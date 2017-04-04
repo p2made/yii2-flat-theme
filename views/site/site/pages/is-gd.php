@@ -11,10 +11,10 @@
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
 use yii\bootstrap\ActiveForm;
-use p2made\helpers\FA;
+use p2m\helpers\FA;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 
@@ -22,7 +22,7 @@ $this->title = 'is.gd';
 $this->params['breadcrumbs'][] = $this->title;
 
 $sampleUrl = 'http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=louth&sll=53.800651,-4.064941&sspn=33.219383,38.803711&ie=UTF8&hq=&hnear=Louth,+United+Kingdom&ll=53.370272,-0.004034&spn=0.064883,0.075788&z=14';
-$shortenedUrl = \p2made\helpers\IsGd::shortenUrl($sampleUrl);
+$shortenedUrl = \p2m\helpers\IsGd::shortenUrl($sampleUrl);
 ?>
 <div id="content-wrapper">
 	<?= Breadcrumbs::widget([
@@ -55,7 +55,7 @@ $shortenedUrl = \p2made\helpers\IsGd::shortenUrl($sampleUrl);
 				<p><strong>Usage:</strong></p>
 			</div>
 			<div class="col-lg-10">
-				<p><code>$shortenedUrl = \p2made\helpers\IsGd::shortenUrl($sampleUrl);</code></p>
+				<p><code>$shortenedUrl = \p2m\helpers\IsGd::shortenUrl($sampleUrl);</code></p>
 			</div>
 			<div class="col-lg-2 text-right">
 				<p><strong>Be considerate:</strong></p>

@@ -12,8 +12,8 @@ use yii\bootstrap\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use p2made\helpers\FA;
-use p2made\widgets\Alert;
+use p2m\helpers\FA;
+use p2m\widgets\Alert;
 
 /* @var $this \yii\web\View */
 /* @var $content string */

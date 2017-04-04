@@ -12,7 +12,7 @@ use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 

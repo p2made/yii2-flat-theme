@@ -11,7 +11,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use p2made\widgets\FA;
+use p2m\widgets\FA;
 
 /* @var $this \yii\web\View */
 ?>

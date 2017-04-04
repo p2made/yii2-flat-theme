@@ -9,14 +9,14 @@
  */
 
 use yii\helpers\Html;
-use p2made\demo\Things\widgets\Alert;
-use p2made\widgets\FA;
+use p2m\demo\Things\widgets\Alert;
+use p2m\widgets\FA;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
 yii\web\YiiAsset::register($this);
-p2made\theme\Flat\assets\FlatAsset::register($this);
+p2m\theme\Flat\assets\FlatAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

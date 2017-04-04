@@ -11,13 +11,13 @@
 use yii\bootstrap\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-use p2made\widgets\Alert;
-use p2made\helpers\FA;
+use p2m\widgets\Alert;
+use p2m\helpers\FA;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-p2made\theme\Flat\assets\FlatAsset::register($this);
+p2m\theme\Flat\assets\FlatAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

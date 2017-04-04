@@ -11,11 +11,11 @@
 use yii\bootstrap\Html;
 use yii\widgets\Breadcrumbs;
 use yii\helpers\Url;
-use p2made\models\FullCalendarEvent;
-use p2made\widgets\FullCalendarWidget;
+use p2m\models\FullCalendarEvent;
+use p2m\widgets\FullCalendarWidget;
 
 // load assets...
-p2made\demo\assets\ThingsDemoAsset::register($this);
+p2m\demo\assets\ThingsDemoAsset::register($this);
 
 /* @var $this yii\web\View */
 $this->title = 'Calendar';
