@@ -19,19 +19,19 @@ The preferred way to install Flat Theme is through [composer](http://getcomposer
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require p2made/yii2-flat-theme "^0.1.15"
+composer require p2made/yii2-flat-theme "^0.4"
 ```
 
 or
 
 ```
-php composer.phar require p2made/yii2-flat-theme "^0.1.15"
+php composer.phar require p2made/yii2-flat-theme "^0.4"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-flat-theme": "^0.1.15"
+"p2made/yii2-flat-theme": "^0.4"
 ```
 
 to the requires section of your `composer.json` file & p2y2bootstrapSocialAsset will be installed next time you run `composer update`.
