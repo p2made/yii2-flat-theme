@@ -1,6 +1,15 @@
 P2Flat Theme v0.5.1
 ============
 
+[![License](https://poser.pugx.org/p2made/yii2-flat-theme/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Total Downloads](https://poser.pugx.org/p2made/yii2-flat-theme/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Monthly Downloads](https://poser.pugx.org/p2made/yii2-flat-theme/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
+[![Latest Stable Version](https://poser.pugx.org/p2made/yii2-flat-theme/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Latest Unstable Version](https://poser.pugx.org/p2made/yii2-flat-theme/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Dependency Status](https://www.versioneye.com/user/projects/593be9b80fb24f003de0c80f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/593be9b80fb24f003de0c80f)
+
+--
+
 Flat Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
 
 Flat Theme contains [AssetBundles for Yii 2.0 Framework](http://www.yiiframework.com/doc-2.0/guide-structure-assets.html)
