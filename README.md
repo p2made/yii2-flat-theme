@@ -1,4 +1,4 @@
-P2Flat Theme v0.6.0
+P2Flat Theme v0.5.2-beta
 ============
 
 [![License](https://poser.pugx.org/p2made/yii2-flat-theme/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
@@ -6,8 +6,9 @@ P2Flat Theme v0.6.0
 [![Monthly Downloads](https://poser.pugx.org/p2made/yii2-flat-theme/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
 [![Latest Stable Version](https://poser.pugx.org/p2made/yii2-flat-theme/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
 [![Latest Unstable Version](https://poser.pugx.org/p2made/yii2-flat-theme/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Dependency Status](https://www.versioneye.com/user/projects/593be9b80fb24f003de0c80f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/593be9b80fb24f003de0c80f)
 
----
+--
 
 Flat Theme from [ShapeBootstrap](http://shapebootstrap.net) as a frontend UI for Yii 2 Framework.
 
@@ -27,19 +28,19 @@ The preferred way to install Flat Theme is through [composer](http://getcomposer
 Depending on your composer installation, run *one* of the following commands:
 
 ```
-composer require p2made/yii2-flat-theme "^0.6"
+composer require p2made/yii2-flat-theme "^0.5"
 ```
 
 or
 
 ```
-php composer.phar require p2made/yii2-flat-theme "^0.6"
+php composer.phar require p2made/yii2-flat-theme "^0.5"
 ```
 
 Alternatively add:
 
 ```
-"p2made/yii2-flat-theme": "^0.6"
+"p2made/yii2-flat-theme": "^0.5"
 ```
 
 to the requires section of your `composer.json` file & p2y2bootstrapSocialAsset will be installed next time you run `composer update`.
